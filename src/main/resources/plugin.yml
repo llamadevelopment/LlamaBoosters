@@ -1,0 +1,8 @@
+name: LlamaBoosters
+version: 1.0.0-SNAPSHOT
+author: Mundschutziii
+api: 1.0.0
+main: net.lldv.llamaboosters.LlamaBoosters
+description: Create community boosters
+depend:
+  - LlamaEconomy

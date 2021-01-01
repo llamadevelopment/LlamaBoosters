@@ -1,0 +1,28 @@
+# - - - Messages - - -
+prefix: "&8» &bBoosters &8| &7"
+permission.insufficient: "&cYou have insufficient permissions to do this."
+
+boosters.activate: "&aYou successfully activated the booster &b[0] &afor &b[1] minutes&a."
+boosters.activate.info: "&aThe booster &b[1] &awas activated by &b[0] &afor &b[2] minutes&a."
+boosters.deactivated: "&cThe booster &b[0] &chas been deactivated."
+boosters.deactivating.incoming: "&cThe booster &b[0] &cwill be deactivated in &b30 Seconds&c."
+boosters.already.active: "&cThis booster is already running. You can buy it later."
+boosters.not.enough.money: "&cYou do not have enough money to buy this booster."
+
+booster.fly: "&aFly booster"
+booster.break: "&bBreak booster"
+booster.xp: "&9XP booster"
+booster.fall_damage: "&4No Fall Damage booster"
+
+# - - - Form UI - - -
+ui.boosters.title: "Booster list"
+ui.boosters.content: "Buy booster advantages for the community."
+ui.boosters.fly: "&8» &aFly booster"
+ui.boosters.break: "&8» &bBreak booster"
+ui.boosters.xp: "&8» &9XP booster"
+ui.boosters.falldamage: "&8» &4No Fall Damage booster"
+
+ui.buybooster.title: "Buy booster"
+ui.buybooster.content: "&fDo you want to buy the booster [0] for &e[1] $&f?"
+ui.buybooster.buy: "&8» &aBuy"
+ui.buybooster.cancel: "&8» &cCancel"

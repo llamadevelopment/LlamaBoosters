@@ -1,0 +1,15 @@
+# ActiveTime: Time in minutes, how long a booster is running.
+Boosters:
+  ActiveTime: 10
+  Prices:
+    FLY: 5000
+    BREAK: 2000
+    XP: 3000
+    FALL_DAMAGE: 5000
+
+Commands:
+  Booster:
+    Name: "booster"
+    Description: "Create community boosters"
+    Permission: "llamaboosters.command.booster"
+    Aliases: [ "boost", "b" ]
