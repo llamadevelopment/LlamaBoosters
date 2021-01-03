@@ -5,7 +5,7 @@ permission.insufficient: "&cYou have insufficient permissions to do this."
 boosters.activate: "&aYou successfully activated the booster &b[0] &afor &b[1] minutes&a."
 boosters.activate.info: "&aThe booster &b[1] &awas activated by &b[0] &afor &b[2] minutes&a."
 boosters.deactivated: "&cThe booster &b[0] &chas been deactivated."
-boosters.deactivating.incoming: "&cThe booster &b[0] &cwill be deactivated in &b30 Seconds&c."
+boosters.deactivating.incoming.pl: "&cThe booster &b[1] &cwill be deactivated in &b[0] Seconds&c."
 boosters.already.active: "&cThis booster is already running. You can buy it later."
 boosters.not.enough.money: "&cYou do not have enough money to buy this booster."
 

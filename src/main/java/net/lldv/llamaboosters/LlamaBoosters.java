@@ -8,7 +8,11 @@ import net.lldv.llamaboosters.components.data.Booster;
 import net.lldv.llamaboosters.components.forms.FormListener;
 import net.lldv.llamaboosters.components.forms.FormWindows;
 import net.lldv.llamaboosters.components.language.Language;
+import net.lldv.llamaboosters.components.tasks.BoosterTask;
 import net.lldv.llamaboosters.listeners.EventListener;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class LlamaBoosters extends PluginBase {
 
@@ -20,6 +24,9 @@ public class LlamaBoosters extends PluginBase {
 
     @Getter
     private int activeTime;
+
+    @Getter
+    private final Map<Booster, Integer> running = new HashMap<>();
 
     @Override
     public void onEnable() {
@@ -46,6 +53,8 @@ public class LlamaBoosters extends PluginBase {
         this.getConfig().getSection("Boosters.Prices").getAll().getKeys(false).forEach(s -> {
             this.api.boosterPrices.put(Booster.Type.valueOf(s.toUpperCase()), this.getConfig().getDouble("Boosters.Prices." + s));
         });
+
+        this.getServer().getScheduler().scheduleDelayedRepeatingTask(this, new BoosterTask(this), 100, 20);
     }
 
 }
