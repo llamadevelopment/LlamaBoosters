@@ -2,8 +2,8 @@
 
 Create community boosters
 
-> * Download the latest version here: [Download]()
-> * Browse other versions of LlamaBoosters here: [Browse]()
+> * Download the latest version here: [Download](https://cloudburstmc.org/resources/llamaboosters.643/download)
+> * Browse other versions of LlamaBoosters here: [Browse](https://cloudburstmc.org/resources/llamaboosters.643/history)
 
 ### Join our Discord:
 [![d](https://img.shields.io/discord/323953253458903040.svg)](https://discord.gg/Qcuv2f6)
@@ -15,15 +15,17 @@ Create community boosters
 ## Features
 
 * Buy community boosters
+* 4 different types of boosters
 * Everything is editable
 
 ---
 
 ## Installation
-1. [Download]() the .jar file.
+1. [Download](https://cloudburstmc.org/resources/llamaboosters.643/download) the .jar file.
 2. Paste the file into your plugin folder.
-3. Start your server.
-4. And have fun using LlamaBoosters.
+3. Make sure that [LlamaEconomy](https://cloudburstmc.org/resources/llamaeconomy.634/) is installed.
+4. Start your server.
+5. And have fun using LlamaBoosters.
 
 ---
 
@@ -36,15 +38,6 @@ booster |    /booster |    llamaboosters.command.booster
 **All commands are editable: Permission, Usage, Command name and Command aliases.**
 
 ---
-
-## Screenshots
-
-![Alt Text]()
-![Alt Text]()
-![Alt Text]()
-
----
-
 
 ## Thanks to ZAP-Hosting!
 This project wouldn't be possible without the help of ZAP-Hosting!
